@@ -1,0 +1,33 @@
+{
+  "name": "micro-task-bounty-platform",
+  "version": "1.0.0",
+  "description": "Micro-Task Bounty Platform - Mobile-first decentralized application on Celo",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:alfajores": "hardhat run scripts/deploy.ts --network alfajores",
+    "deploy:celo": "hardhat run scripts/deploy.ts --network celo",
+    "create-demo-tasks": "hardhat run scripts/createDemoTasks.ts --network celo",
+    "mobile": "cd mobile-app && npm start",
+    "web": "cd web-app && npm run dev"
+  },
+  "keywords": [
+    "celo",
+    "blockchain",
+    "micro-tasks",
+    "bounty",
+    "react-native"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@types/node": "^20.10.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "network": "celo",
+  "chainId": "42220",
+  "deployer": "0x900f96DD68CA49001228348f1A2Cd28556FB62dd",
+  "contracts": {
+    "AntiFraud": "0xAE8855e71bf2b5028A76867453a9C82886dC3966",
+    "ReputationContract": "0xD73bE71518118a8282a7d170339EedD3DAdDa90f",
+    "BountyPool": "0xfA93bA0B1f4CFb90008F6669c84a1DEDeF750438",
+    "VerificationContract": "0x4277361659f2Fc6243d579021e62d3b47762b7bD",
+    "TaskManager": "0x8e4C2a76d4e6472fF088b7013c906B06D9558D6b"
+  },
+  "timestamp": "2025-11-26T22:53:22.500Z"
+}
