@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { AppDispatch } from './store';
@@ -29,7 +29,7 @@ function App() {
           try {
             const ethereum = (window as any).ethereum;
             const isMiniPay = blockchainService.isMiniPay();
-            
+
             // Check if already connected
             const accounts = await ethereum.request({ method: 'eth_accounts' });
             if (accounts.length > 0) {

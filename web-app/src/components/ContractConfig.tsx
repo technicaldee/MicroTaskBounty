@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { blockchainService } from '../services/blockchain';
 import './ContractConfig.css';
 

@@ -27,7 +27,7 @@ export default function CreateTaskScreen() {
     requiredBadge: '0',
   });
   
-  const [useCurrentLocation, setUseCurrentLocation] = useState(false);
+  const [, setUseCurrentLocation] = useState(false);
   const [creating, setCreating] = useState(false);
 
   useEffect(() => {

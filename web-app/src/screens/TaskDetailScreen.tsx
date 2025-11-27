@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState, AppDispatch } from '../store';
@@ -10,7 +10,7 @@ export default function TaskDetailScreen() {
   const { taskId } = useParams<{ taskId: string }>();
   const navigate = useNavigate();
   const dispatch = useDispatch<AppDispatch>();
-  const { claimedTasks, activeTasks } = useSelector((state: RootState) => state.tasks);
+  const { claimedTasks } = useSelector((state: RootState) => state.tasks);
   const { address } = useSelector((state: RootState) => state.wallet);
   const [task, setTask] = useState<any>(null);
   const [loading, setLoading] = useState(true);
