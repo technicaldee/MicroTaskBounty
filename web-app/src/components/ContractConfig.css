@@ -1,0 +1,63 @@
+.contract-config {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contract-config h3 {
+  margin: 0 0 0.5rem 0;
+  color: #856404;
+}
+
+.config-help {
+  font-size: 0.875rem;
+  color: #856404;
+  margin-bottom: 1rem;
+}
+
+.config-inputs {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.config-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.config-group label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.config-group input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+.config-button {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.config-button:hover {
+  background-color: #ffb300;
+}
+
+
+
+
